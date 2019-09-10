@@ -1,0 +1,37 @@
+body {
+    /* background-color: gray; */
+    background-image: url(https://images6.alphacoders.com/736/thumb-1920-736068.png);
+}
+
+.container {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    height: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.counter {
+    text-align: center;
+}
+
+.crystal {
+    /* margin: 10px;
+    width: 150px;
+    height: 200px; */
+    float: left;
+    margin: 40px;
+    padding: 0px 10px;
+    width: 150px;
+    height: 200px;
+}
