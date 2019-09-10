@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,14 @@
             /* background-color: gray; */
             background-image: url(https://images6.alphacoders.com/736/thumb-1920-736068.png);
         }
+
         .container {
             width: 960px;
             height: 600px;
             margin: 0 auto;
             /* background-color: white; */
         }
-        .counter {
-            margin: 0 auto;
-        }
+
         .wrapper {
             margin: 0 auto;
             padding: 20px;
@@ -29,37 +29,48 @@
 
         h1 {
             text-align: center;
-        } 
-        .counter {
-            float: left;
         }
+
+        .counter {
+            text-align: center;
+        }
+
         .crystal {
+            /* margin: 10px;
+            width: 150px;
+            height: 200px; */
             float: left;
-            margin: 10px;
+            margin: 40px;
+            padding: 0px 10px;
             width: 150px;
             height: 200px;
         }
     </style>
 </head>
+
 <body>
     <!-- create containers for game -->
     <div class="container">
-        <div class="header"><h1>Battle: Crystal Gems</h1></div>
+        <div class="header">
+            <h1>Battle: Crystal Gems</h1>
+        </div>
         <div class="counter">
-            <p>Number to Guess: <span class="guessNum"></span></p>
-            <p>Your Guess: <span class="userGuess"></span></p>
+            <p>Number to Guess: <span class="guessNum">0</span></p>
+            <p>Your Guess: <span class="userGuess">0</span></p>
+
+            <div class="wrapper">
+                <img class="crystal" id="amethyst" src="assets/images/PinClipart.com_bra-clip-art_1069788.png" alt="">
+                <img class="crystal" id="steven" src="assets/images/PinClipart.com_rosa-clipart_1450196.png" alt="">
+                <img class="crystal" id="ruby" src="assets/images/PinClipart.com_ruby-clip-art_3832359.png" alt="">
+                <img class="crystal" id="sapphire" src="assets/images/PinClipart.com_sapphire-clip-art_1544125.png"
+                    alt="">
+            </div>
+
         </div>
-        <div class="wrapper">
-            <img class="crystal" id="amethyst" src="assets/images/PinClipart.com_bra-clip-art_1069788.png" alt="">
-            <img class="crystal" id="steven" src="assets/images/PinClipart.com_rosa-clipart_1450196.png" alt="">
-            <img class="crystal" id="ruby" src="assets/images/PinClipart.com_ruby-clip-art_3832359.png" alt="">
-            <img class="crystal" id="sapphire" src="assets/images/PinClipart.com_sapphire-clip-art_1544125.png" alt="">
-           
-        </div>
-        
     </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
